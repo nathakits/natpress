@@ -1,8 +1,37 @@
 <div align="center">
-  <h1>Natpress</h1>
+  <h1>Pupilpress</h1>
 </div>
 
 > Testing Vuepress and building Pupil theme
+
+## Directory structure
+
+```
+pupilpress
+├── docs
+│   ├── .vuepress
+│   │   ├── theme (Local theme)
+│   │   │   ├── components
+│   │   │   └── layouts
+│   │   │   └── styles
+│   │   │   └── util
+│   │   │
+│   │   ├── public
+│   │   └── config.js
+│   │
+│   ├── README.md (Home page)
+│   │
+│   ├── products
+│   │   └── README.md
+│   ├── learn
+│   │   └── README.md
+│   ├── News
+│   │   └── README.md
+│   └── careers
+│       └── README.md
+│
+└── package.json
+```
 
 ## Config
 
