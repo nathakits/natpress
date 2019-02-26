@@ -34,6 +34,7 @@
       <internalNavLinks class="can-hide"/>
     </div>
     <div
+      v-if="$site.themeConfig.external"
       class="links"
       :style="linksWrapMaxWidth ? {
         'max-width': linksWrapMaxWidth + 'px'

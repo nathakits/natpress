@@ -6,40 +6,20 @@
       :src="$withBase(data.heroImage)"
       :alt="data.heroAlt"
     >
-    <!-- <header class="hero">
 
-      <h1 id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
-
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
-
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
-    </header> -->
-
-    <!-- <div
-      class="features"
-      v-if="data.features && data.features.length"
+    <!-- <p
+      class="action"
+      v-if="data.actionText && data.actionLink"
     >
-      <div
-        class="feature"
-        v-for="(feature, index) in data.features"
-        :key="index"
-      >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
-      </div>
-    </div> -->
+      <NavLink
+        class="action-button"
+        :item="actionLink"
+      />
+    </p> -->
 
     <div class="container">
+      <h1>Home</h1>
+      <h2>{{ $site.themeConfig }}</h2>
       <Content class="custom"/>
     </div>
 
@@ -50,10 +30,10 @@
 </template>
 
 <script>
-import NavLink from './NavLink.vue'
+// import NavLink from './NavLink.vue'
 
 export default {
-  components: { NavLink },
+  // components: { NavLink },
 
   computed: {
     data () {

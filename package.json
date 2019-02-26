@@ -1,10 +1,14 @@
 {
   "devDependencies": {},
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "dependencies": {
-    "vuepress": "^1.0.0-alpha.32"
+    "@vuepress/plugin-blog": "^1.0.0-alpha.39",
+    "@vuepress/plugin-pagination": "^1.0.0-alpha.39",
+    "axios": "^0.18.0",
+    "marked": "^0.6.1",
+    "vuepress": "^1.0.0-alpha.39"
   }
 }
